@@ -1,0 +1,12 @@
+# Local artifacts; ignore rules are not a security boundary
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+*.log
+*.tmp
